@@ -1,0 +1,371 @@
+@media only screen and (min-width: 2075px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 1.8rem;
+    }
+    
+    h6 {
+        font-size: 1.3rem;
+    }
+    
+    p {
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+    
+    a {
+        font-size: 1rem;
+    }
+    
+    button {
+        font-size: 1rem;
+    }
+
+    .services-title {
+        font-size: 1.5rem;
+    }
+
+    .badge-primary {
+        font-size: 1.3rem;
+    }
+
+    .heading-six {
+        font-size: 1.2rem;
+    }
+
+    .header__share {
+        width: 200px;
+        height: 50px;
+    }
+
+    .header__burger-btn {
+        padding: 0 15px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .burger-btn__line:nth-child(2n) {
+        margin: 8px 0;
+    }
+    
+    .burger-btn__line {
+        height: 4px;
+    }
+
+    .profile__photo {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1280px) {  
+/*Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.*/
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h6 {
+        margin-bottom: 10px;
+        font-family: 'Value Sans Pro';
+        font-size: 0.8rem;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    input {
+        font-size: 0.6rem;
+    }
+
+    textarea {
+        font-size: 0.6rem;
+    } 
+
+    button {
+        font-family: 'Value Sans Pro';
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+
+    .profile {
+        margin-top: 7.5%;
+    }
+
+    .profile__title {
+        padding: 5px 25px;
+    }
+
+    .profile__item {
+        font-size: 12px;
+    }
+
+    .profile__social-list {
+        width: 50%;
+        margin: 15px 0;
+    }
+
+    .profile__social-item {
+        height: 25px;
+        width: 25px;
+    }
+
+    .profile__text {
+        font-size: 12px;
+    }
+
+    .btn-down-load {
+        padding: 10px 0;
+        width: 180px;
+        font-size: 0.8rem;
+    }
+
+    .profile__section {
+        width: 90%;
+    }
+
+    .header__share {
+        width: 100px;
+        height: 30px;
+    }
+
+    .burger-btn__line:nth-child(2n) {
+        margin: 2px 0;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .badge-primary {
+        padding: 8px 13px;
+        font-size: 0.6rem;
+        font-weight: 500;
+        line-height: 1;
+        border-radius: 5px;
+        color: var(--clr-bg-container);
+        background-color: var(--clr-blue);
+    }
+
+    .heading-six {
+        margin: 8px 0;
+        font-size: 0.8rem;
+    }
+
+    .services-title {
+        font-size: 12px;
+    }
+
+    .services-item {
+        width: 48%;
+    }
+
+    .services-item:not(:last-child) {
+        padding-right: 10px;
+    }
+
+/*Portfolio start*/
+    .portfolio-list {
+        margin-bottom: 15% !important;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+/*Portfolio end*/
+
+/*Contact start*/
+
+    .contact-heading {
+        font-size: 1rem;
+    }
+
+    .contact-link {
+        font-size: 0.8rem;
+    }
+
+    .form-btn {
+        font-size: 0.8rem;
+    }
+
+/*Contact end*/
+}
+    
+@media only screen and (max-width: 768px) {
+    /*Планшеты в режиме portrait.*/
+    .container-wrapper {
+        padding: 13% 7% 2%;
+        justify-content: space-between;
+    }
+
+    .container__block {
+        padding: 5% 10%;
+    }    
+
+    .block-wrapper {
+        width: 65%;
+    }
+
+    .header {
+        position: fixed;
+        padding: 15px 10%;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        box-shadow: 0 0 20px 0 rgb(0 0 0 / 8%);
+        background-color: var(--clr-grey);
+    }
+
+    .profile__social-list {
+        width: 70%;
+    }
+
+    .resume__article {
+        width: 100%;
+    }
+
+    .grid {
+        flex-direction: column;
+    }
+
+    .services-item {
+        width: 100%;
+    }
+
+    .services-item:not(:last-child) {
+        padding-right: 0;
+        border: none;
+    }
+
+    .services-item {
+        margin-bottom: 25px;
+    }
+
+    .btn-down-load {
+        padding: 10px 0;
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .section-resume {
+        flex-direction: column;
+    }
+
+    .blog-list {
+        display: var(--flex);
+        flex-direction: column;
+    }
+
+    .blog-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .contact-list {
+        display: var(--flex);
+        flex-direction: column;
+    }
+
+    .contact-item {
+        width: 100%;
+    }
+
+    .contact-item:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+/*Portfolio start*/
+    .portfolio-list {
+        display: var(--flex);
+        flex-direction: column;
+    }
+
+    .portfolio-item:not(:last-child) {
+        margin-bottom: 30px;
+        min-height: 180px;
+    }
+
+    .portfolio-item__heading {
+        font-size: 1.3rem;
+    }
+
+    .portfolio-item__link {
+        font-size: 0.5rem;
+    }
+/*Portfolio end*/
+}
+
+@media only screen and (max-width: 480px) {
+    /*Здесь стили более разумных, но все еще мобильных устройств. Android, iPhone  и так далее.*/
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    input {
+        height: 40px;
+        width: 100%;
+    }
+
+    input:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    textarea {
+        margin: 15px 0;
+    }
+
+    .container-wrapper {
+        padding: 30% 10% 2%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile {
+        width: 100%;
+        margin: 0;
+    }
+
+    .container__block {
+        padding: 5% 10%;
+    }
+
+    .block-wrapper {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .container-block {
+        width: 100%;
+    }
+
+    .contact-list {
+        margin: 15px 0;
+    }
+
+    .heading-six {
+        margin: 20px 0 10px;
+    }
+
+    .blog-item {
+        height: 200px;
+    }
+
+    .contact-link {
+        font-size: 0.6rem;
+    }
+
+    .form__wrapper {
+        display: var(--flex);
+        flex-direction: column;
+    }
+}
