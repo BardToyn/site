@@ -198,8 +198,20 @@
     }
 
 /*Contact end*/
+
+/*modal window start*/
+
+    .share-modal {
+        width: 50%;
+    }
+
+    .share-social__list {
+        width: 100%;
+    }
+
 }
-    
+
+/*modal window end*/
 @media only screen and (max-width: 768px) {
     /*Планшеты в режиме portrait.*/
     .container-wrapper {
@@ -367,5 +379,9 @@
     .form__wrapper {
         display: var(--flex);
         flex-direction: column;
+    }
+
+    .share-modal {
+        width: 80%;
     }
 }

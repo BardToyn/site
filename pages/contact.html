@@ -192,13 +192,13 @@
                             </div>
                         </div>
                         <div class="contact-form">
-                            <form action="#!" method="post">
+                            <form autocomplete="on" action="../scripts/email.php" method="post">
                                 <div class="form__wrapper">
-                                    <input type="text" name="name" id="inputName" placeholder="Имя:">
-                                    <input type="email" name="email" id="inputEmail" placeholder="Email:">
+                                    <input type="text" name="username" id="inputName" placeholder="Имя:" required>
+                                    <input type="email" name="useremail" id="inputEmail" placeholder="Email:" required>
                                 </div>
                                 <div class="form__wrapper">
-                                    <textarea name="textarea" id="formTextarea" cols="30" rows="10" placeholder="Сообщение:"></textarea>
+                                    <textarea name="question" id="formTextarea" cols="30" rows="10" placeholder="Сообщение:"></textarea>
                                 </div>
                                 <button class="form-btn" type="submit">Отправить сообщение</button>
                             </form>

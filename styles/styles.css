@@ -829,6 +829,7 @@ textarea {
     line-height: 1.538;
     font-weight: 300;
     background: transparent;
+    text-transform: lowercase;
 }
 
 .share-btn__click {
