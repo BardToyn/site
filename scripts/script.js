@@ -31,3 +31,8 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+
+function scrollTo(anchor) {
+    element = document.getElementById(anchor);
+    element.scrollIntoView();
+}
