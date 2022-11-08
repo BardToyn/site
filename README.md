@@ -1,2 +1,2 @@
 # site
-dev/ver1.0
+dev/ver1.2
