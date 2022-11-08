@@ -303,7 +303,7 @@
 
     .portfolio-item:not(:last-child) {
         margin-bottom: 30px;
-        min-height: 180px;
+        max-height: 180px;
     }
 
     .portfolio-item__heading {
@@ -383,6 +383,14 @@
 
     .share-modal {
         width: 80%;
+    }
+
+    .portfolio-item {
+        min-height: 150px;
+    }
+
+    .portfolio-item:not(:last-child) {
+        margin-bottom: 30px;
     }
 
     .portfolio-category__link {
