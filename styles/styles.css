@@ -1,5 +1,9 @@
 /*varieble start*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --clr-grey: #f5f5f5;
     --clr-bg: #ebeaea;
@@ -81,10 +85,6 @@
 /*Fonts-end*/
 
 /*settings start*/
-
-html {
-    scroll-behavior: smooth;
-}
 
 body {
     /*padding: 1% 2.5%;*/
