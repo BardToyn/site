@@ -82,6 +82,10 @@
 
 /*settings start*/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /*padding: 1% 2.5%;*/
     background-color: var(--clr-bg);
@@ -559,6 +563,30 @@ textarea {
 
 .portfolio-item__link {
     margin-top: 10%;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.portfolio-category {
+    margin: 10px 0;
+}
+
+.portfolio-category__item {
+    list-style: inside;
+    color: var(--clr-blue);
+}
+
+.portfolio-category__item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.portfolio-category__link {
+    font-family: 'Value Sans Pro';
+    font-size: 1rem;
+    line-height: 1.538;
+    font-weight: 300;
+    color: var(--clr-blue);
+    text-transform: lowercase;
 }
 
 /*portfolio tasya*/

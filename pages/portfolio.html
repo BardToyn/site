@@ -138,7 +138,7 @@
                     <li class="profile__item">
                         Столярное дело
                     </li>
-                    <li class="profile__item">
+                    <li class="profile__item" id="portfolio">
                         Видео игры
                     </li>
                 </ul>
@@ -150,10 +150,10 @@
                     Поделиться
                 </button>
                 <nav class="header__nav">
-                    <a href="../index.html" class="header__link">Главная</a>
+                    <a href="../index.html#home" class="header__link">Главная</a>
                     <a href="#" class="header__link header__link_active">Портфолио</a>
-                    <a href="blog.html" class="header__link">Блог</a>
-                    <a href="contact.html" class="header__link">Контакты</a>
+                    <a href="blog.html#blog" class="header__link">Блог</a>
+                    <a href="contact.html#contact" class="header__link">Контакты</a>
                 </nav>
                 <button class="header__burger-btn" onclick="openNav()">
                     <span class="burger-btn__line"></span>
@@ -170,65 +170,94 @@
                         Мои проекты
                     </h2>
                     <p class="text portfolio-text">
-                        В данном разделе мои проекты будут разделены на две категории. Из реального опыта, где я принимал учатие или непосредственно создавал, так и мои собственные проекты в роли разработчика.
+                        В данном разделе мои проекты будут разделены на две категории.
+                    </p>
+                    <ul class="portfolio-category">
+                        <li class="portfolio-category__item">
+                            <a class="portfolio-category__link" href="portfolio.html#myprod">
+                                Мои проекты
+                            </a>
+                        </li>
+                        <li class="portfolio-category__item">
+                            <a class="portfolio-category__link" href="portfolio.html#mywork">
+                                Реальные кейсы
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="text portfolio-text">
+                        Можете ознакомиться с ними кликнув по превью проектов
                     </p>
                     <div class="portfolio-wrapper">
-                        <h6 class="heading-six">
+                        <h6 class="heading-six" id="myprod">
                             Пет-проекты
                         </h6>
                         <h2 class="section-heading">
                             Собственные проекты
                         </h2>
                         <div class="portfolio-list">
-                            <div class="portfolio-item portfolio-item__photog">
-                                <h2 class="portfolio-item__heading portfolio-item__heading__photog">
-                                    Photography portfolio
-                                </h2>
-                                <a href="https://bardtoyn.github.io/temluche.portfolio/" class="portfolio-item__link portfolio-item-link__photog" target="_blank">
-                                    подробнее
-                                </a>
-                            </div>
-                            <div class="portfolio-item"></div>
-                            <div class="portfolio-item"></div>
-                            <div class="portfolio-item"></div>
-                            <div class="portfolio-item"></div>
-                            <div class="portfolio-item"></div>
+                            <a href="https://bardtoyn.github.io/temluche.portfolio/"  target="_blank">
+                                <div class="portfolio-item portfolio-item__photog">
+                                    <h2 class="portfolio-item__heading portfolio-item__heading__photog">
+                                        Photography portfolio
+                                    </h2>
+                                    <p class="portfolio-item__link portfolio-item-link__photog">
+                                        подробнее
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="#"><div class="portfolio-item"></div></a>
+                            <a href="#"><div class="portfolio-item"></div></a>
+                            <a href="#"><div class="portfolio-item"></div></a>
+                            <a href="#"><div class="portfolio-item"></div></a>
+                            <a href="#"><div class="portfolio-item"></div></a>
                         </div>
-                        <h6 class="heading-six">
-                            Рабочие-проекты
+                        <h6 class="heading-six" id="mywork">
+                            Рабочие-кейсы
                         </h6>
                         <h2 class="section-heading">
-                            Проекты из боевого опыта
+                            Проекты из реального опыта
                         </h2>
                         <div class="portfolio-list">
-                            <div class="portfolio-item portfolio-item__milgear">
-                                <h2 class="portfolio-item__heading">
-                                    Military
-                                    <span>Market</span>
-                                </h2>
-                                <a href="https://militarymarket.ru"  target="_blank" class="portfolio-item__link portfolio-item-link__milgear">
-                                    подробнее
-                                </a>
-                            </div>
-                            <div class="portfolio-item portfolio-item__getsteel">
-                                <h2 class="portfolio-item__heading portfolio-item__heading__getsteel">
-                                    <span class="heading-span__getsteel">Get</span>Steel.ru
-                                </h2>
-                                <a href="https://getsteel.ru"  target="_blank" class="portfolio-item__link portfolio-item-link__getsteel">
-                                    подробнее
-                                </a>
-                            </div>
-                            <div class="portfolio-item portfolio-item__kazna">
-                                <h2 class="portfolio-item__heading portfolio-item__heading__kazna">
-                                    Казначейское сопровождение
-                                </h2>
-                                <a href="https://helpkazna.ru" target="_blank" class="portfolio-item__link portfolio-item-link__kazna">
-                                    подробнее
-                                </a>
-                            </div>
-                            <div class="portfolio-item"></div>
-                            <div class="portfolio-item"></div>
-                            <div class="portfolio-item"></div>
+                            <a href="https://www.militarymarket.ru" target="_blank">
+                                <div class="portfolio-item portfolio-item__milgear">
+                                    <h2 class="portfolio-item__heading">
+                                        Military
+                                        <span>Market</span>
+                                    </h2>
+                                    <p class="portfolio-item__link portfolio-item-link__milgear">
+                                        подробнее
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="https://getsteel.ru" target="_blank">
+                                <div class="portfolio-item portfolio-item__getsteel">
+                                    <h2 class="portfolio-item__heading portfolio-item__heading__getsteel">
+                                        <span class="heading-span__getsteel">Get</span>Steel.ru
+                                    </h2>
+                                    <p class="portfolio-item__link portfolio-item-link__getsteel">
+                                        подробнее
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="https://helpkazna.ru" target="_blank">
+                                <div class="portfolio-item portfolio-item__kazna">
+                                    <h2 class="portfolio-item__heading portfolio-item__heading__kazna">
+                                        Казначейское сопровождение
+                                    </h2>
+                                    <p class="portfolio-item__link portfolio-item-link__kazna">
+                                        подробнее
+                                    </p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="portfolio-item"></div>
+                            </a>
+                            <a href="#">
+                                <div class="portfolio-item"></div>
+                            </a>
+                            <a href="#">
+                                <div class="portfolio-item"></div>
+                            </a>
                         </div>
                     </div>
                 </section>

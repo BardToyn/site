@@ -384,4 +384,8 @@
     .share-modal {
         width: 80%;
     }
+
+    .portfolio-category__link {
+        font-size: 12px;
+    }
 }
