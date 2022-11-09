@@ -339,12 +339,17 @@
     .container-wrapper {
         padding: 30% 10% 2%;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .profile {
+        display: none;
+    }
+
+    .profile-mob {
         width: 100%;
         margin: 0;
+        display: flex;
     }
 
     .container__block {
@@ -353,7 +358,6 @@
 
     .block-wrapper {
         width: 100%;
-        margin-top: 50px;
     }
 
     .container-block {
@@ -395,5 +399,9 @@
 
     .portfolio-category__link {
         font-size: 12px;
+    }
+
+    .profile__section {
+        display: none;
     }
 }

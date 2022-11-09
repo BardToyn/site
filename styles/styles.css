@@ -902,6 +902,10 @@ textarea {
     color: var(--clr-blue);
 }
 
+.sidenav__link-active {
+    color: var(--clr-blue);
+}
+
 .sidenav .closebtn {
     position: absolute;
     top: 0;

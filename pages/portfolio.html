@@ -11,7 +11,7 @@
     <meta name="description" content="Портфолио web-разработчика, Собраны все проекты к которым я приложил свою руку в качестве контент менеджера и разработчика сайтов реальные кейсы и сторонние личные проекты">
     <meta name="keywords" content="Разработка, веб-разработчик, портфолио, Front-end, HTML5, css, js, PHP, Tilda, CMS, Bitrix, Контент-менеджер">
 </head>
-<body onload="scrollTo('case')">
+<body>
 <!--модальное окно для кнопки поделиться start-->
     <div class="share-wrapper" id="wrapperModal">
         <div class="share-modal" id="shareModal">
@@ -59,7 +59,7 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="../index.html">Главная</a>
-        <a onclick="scrollTo('case')" href="#case">Портфолио</a>
+        <a class="sidenav__link-active" href="#">Портфолио</a>
         <a href="blog.html">Блог</a>
         <a href="contact.html">Контакты</a>
     </div>
@@ -161,7 +161,7 @@
                     <span class="burger-btn__line"></span>
                 </button>
             </header>
-            <main class="container__block" id="case">
+            <main class="container__block">
                 <section class="section-portfolio">
                     <h6 class="heading-six">
                         Портфолио
